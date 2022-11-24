@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 26px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #000;
+}
+
+.active {
+  background-color: #475;
+}
+.active:hover{
+background-color: #493;
+}
+.fa fa-home{
+    color: white;
+    font-size: 34px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+} 
+</style>
+</head>
+<body>
+
+<ul class="bg-dark">
+  <div class="nav-item">
+  <li><a href="../index.html"><i class="fa fa-home"></i><span>Home</span> </a></li>
+</div>
+<div class="nav-item">
+  <li><a href="#"><span style="color: white;"><i class="fas fa-comments "></i></span>  About us</a></li>
+</div>
+<div class="nav-item">
+  <li><a href="#"><span style="color: white;"><i class="fas fa-phone-volume "></i></span> Contact us</a></li>
+  <div class="nav-item">
+  <li style="float:right"><a class="active" href="../Admin/login.php">Login</a></li>
+</div>
+</ul>
+<div class="footer bg-dark">
+  <p>Robert Wachira &copy 2021</p>
+</div>
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
